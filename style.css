@@ -1,0 +1,75 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100";
+
+.body{
+    background-color:red;
+}
+
+/* .datatabel,
+.datatabel2{
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+} */
+
+.kartu-positif{
+    background: linear-gradient(45deg, #c73866, #fe676e);
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.kartu-meninggal{
+    background: linear-gradient(45deg, #7697a0, #9b9b9b);
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.kartu-sembuh{
+    background: linear-gradient(-45deg, #a7d676, #bac94a);
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.kartu-indo{
+    background: linear-gradient(45deg, #e69d45, #ecd59f);
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.judul-jbt,
+.text-jbt{
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 350;
+}
+
+.kartu1,
+.kartu2{
+    width: 100%;
+}
+
+.jdl-th{
+    position: sticky;
+    top: -1px;
+}
+
+table thead th:nth-child(1),
+table tbody td:nth-child(1){
+    width: 50px;
+    text-align: center;
+}
+
+table tbody td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+
+}
+
+.kartu-tautan1{
+    background: #3686c9;
+}
+
+.kartu-tautan3{
+    background-color: #50a3a4;
+}
+
+.kartu-tautan4{
+    background-color: #feb326;
+}
+
+.kartu-tautan1,
+.kartu-tautan3,
+.kartu-tautan4{
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+}

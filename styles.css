@@ -1,0 +1,126 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100";
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+@import "('https://fonts.googleapis.com/css2?family=Varela&display=swap')";
+
+.body{
+    background-color: #fcfcfc;
+}
+
+.card-body{
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 1.5rem 1.5rem;
+    position: relative;
+    overflow: auto;
+}
+
+.card{
+    width: 100%;
+    box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.kartu-positif{
+    background: linear-gradient(45deg, #c73866, #fe676e);
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.kartu-meninggal{
+    background: linear-gradient(45deg, #7697a0, #9b9b9b);
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.kartu-sembuh{
+    background: linear-gradient(-45deg, #a7d676, #bac94a);
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.kartu-indo{
+    background: linear-gradient(45deg, #e69d45, #ecd59f);
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.judul-jbt,
+.text-jbt{
+    font-family: "Varela", Arial, sans-serif;
+    font-weight: 350;
+}
+
+.jdl-th{
+    position: sticky;
+    top: -1px;
+}
+
+table thead th:nth-child(1),
+table tbody td:nth-child(1){
+    width: 50px;
+    text-align: center;
+}
+
+table tbody td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+
+}
+
+.kartu-tautan1{
+    /* background: #3686c9; */
+    box-shadow: 5px 5px 10px #3686c9;
+}
+
+.kartu-tautan2{
+    /* background-color: #f0134d; */
+    box-shadow: 5px 5px 10px #f0134d;
+}
+
+.kartu-tautan3{
+    /* background-color: #50a3a4; */
+    box-shadow: 5px 5px 10px #50a3a4;
+}
+
+.kartu-tautan4{
+    /* background-color: #feb326; */
+    box-shadow: 5px 5px 10px #feb326;
+}
+
+.kartu-tautan1,
+.kartu-tautan2,
+.kartu-tautan3,
+.kartu-tautan4{
+    font-family: 'Roboto' sans-serif;
+    color: black;
+    border-radius: 0;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+.kartu-tautan1:hover{
+    background-color: #3686c9;
+}
+
+.kartu-tautan2:hover{
+    background-color: #f0134d;
+}
+
+.kartu-tautan3:hover{
+    background-color: #50a3a4;
+}
+
+.kartu-tautan4:hover{
+    background-color: #feb326;
+}
+
+.kartu-tautan1:hover,
+.kartu-tautan2:hover,
+.kartu-tautan3:hover,
+.kartu-tautan4:hover{
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+.div-indo {
+    margin: auto;
+    margin-top: 5px;
+    width: 60%;
+    padding: 10px;
+}
